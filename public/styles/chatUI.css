@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#chat_box{
+    height: 50vh;
+    width: 500px;
+    overflow-y:scroll;
+    border: 1px solid #000; 
+}
+#chat_box > p{
+    padding: 2rem 2rem 2rem 1rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    margin: 0.5rem;
+}        
